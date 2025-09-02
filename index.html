@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechKar - Pakistani Digital Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-rocket"></i>
+                TechKar
+            </a>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="#pricing" class="btn">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Revolutionizing Digital Solutions in Pakistan</h1>
+                <p class="hero-desc">TechKar offers cutting-edge digital solutions tailored for Pakistani businesses.
+                    Our platform helps local entrepreneurs streamline operations, enhance customer engagement, and grow
+                    their online presence with tools designed specifically for the Pakistani market.</p>
+                <a href="#pricing" class="btn btn-accent">Get Started Today</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1556655845-34a35c3b5dc0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                    alt="TechKar Dashboard">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Powerful Features for Pakistani Businesses</h2>
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3 class="feature-title">Localized E-Commerce</h3>
+                    <p class="feature-desc">Built-in support for Pakistani payment methods like JazzCash, EasyPaisa, and
+                        bank transfers. Inventory management tailored for local markets with Urdu language support.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="feature-title">Business Analytics</h3>
+                    <p class="feature-desc">Comprehensive analytics dashboard providing insights into customer behavior,
+                        sales trends, and market analysis specific to Pakistani demographics and economic patterns.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Mobile-First Design</h3>
+                    <p class="feature-desc">Optimized for Pakistan's mobile-first users with lightweight design for
+                        areas with limited connectivity and support for low-end devices common in the market.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="pricing-header">
+                <h2 class="section-title">Affordable Plans for Pakistani Businesses</h2>
+                <p>Choose the plan that works best for your business needs</p>
+                <div class="pricing-toggle">
+                    <div class="toggle-btn active" id="monthly-toggle">Monthly</div>
+                    <div class="toggle-btn" id="yearly-toggle">Yearly (Save 20%)</div>
+                </div>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card fade-in">
+                    <h3 class="plan-name">Starter</h3>
+                    <div class="plan-price" data-monthly="₨ 2,500" data-yearly="₨ 24,000">
+                        ₨ 2,500 <span>/month</span>
+                    </div>
+                    <p>Perfect for small businesses and startups</p>
+                    <ul class="plan-features">
+                        <li class="plan-feature">Up to 100 products</li>
+                        <li class="plan-feature">Basic analytics</li>
+                        <li class="plan-feature">Email support</li>
+                        <li class="plan-feature">Mobile app access</li>
+                        <li class="plan-feature">1 GB storage</li>
+                    </ul>
+                    <a href="#" class="btn">Get Started</a>
+                </div>
+                <div class="pricing-card popular fade-in">
+                    <h3 class="plan-name">Professional</h3>
+                    <div class="plan-price" data-monthly="₨ 5,000" data-yearly="₨ 48,000">
+                        ₨ 5,000 <span>/month</span>
+                    </div>
+                    <p>Ideal for growing businesses</p>
+                    <ul class="plan-features">
+                        <li class="plan-feature">Unlimited products</li>
+                        <li class="plan-feature">Advanced analytics</li>
+                        <li class="plan-feature">Priority support</li>
+                        <li class="plan-feature">Multi-user access</li>
+                        <li class="plan-feature">10 GB storage</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary">Get Started</a>
+                </div>
+                <div class="pricing-card fade-in">
+                    <h3 class="plan-name">Enterprise</h3>
+                    <div class="plan-price" data-monthly="₨ 10,000" data-yearly="₨ 96,000">
+                        ₨ 10,000 <span>/month</span>
+                    </div>
+                    <p>For large organizations</p>
+                    <ul class="plan-features">
+                        <li class="plan-feature">Unlimited everything</li>
+                        <li class="plan-feature">Custom analytics</li>
+                        <li class="plan-feature">24/7 dedicated support</li>
+                        <li class="plan-feature">White-label solution</li>
+                        <li class="plan-feature">100 GB storage</li>
+                    </ul>
+                    <a href="#" class="btn">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Pakistani Businesses Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-text">TechKar has transformed how we manage our retail business in Lahore. The
+                        localized payment options and Urdu support have made it incredibly easy for our staff to adapt
+                        to the digital system.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-details">
+                            <span class="author-name">Ahmed Raza</span>
+                            <span class="author-role">Owner, Lahore Fashion House</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-text">As a Karachi-based startup, we needed a solution that could grow with
+                        us. TechKar's scalable plans and Pakistan-specific features have been instrumental in our
+                        expansion across Sindh and Punjab.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-details">
+                            <span class="author-name">Fatima Khan</span>
+                            <span class="author-role">CEO, PakCrafts</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-text">The mobile optimization is exceptional! Our customers in rural areas of
+                        KPK with limited internet connectivity can still access our services seamlessly. TechKar
+                        understands the Pakistani market.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-details">
+                            <span class="author-name">Bilal Ahmed</span>
+                            <span class="author-role">Director, Peshawar Goods</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>TechKar</h3>
+                    <p>Providing digital solutions tailored for the Pakistani market since 2020.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Products</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">E-Commerce</a></li>
+                        <li><a href="#" class="footer-link">Inventory Management</a></li>
+                        <li><a href="#" class="footer-link">Customer CRM</a></li>
+                        <li><a href="#" class="footer-link">Analytics Dashboard</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Documentation</a></li>
+                        <li><a href="#" class="footer-link">Tutorials</a></li>
+                        <li><a href="#" class="footer-link">Blog</a></li>
+                        <li><a href="#" class="footer-link">Support Center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Main Street, Karachi, Pakistan</li>
+                        <li><i class="fas fa-phone"></i> +92 300 1234567</li>
+                        <li><i class="fas fa-envelope"></i> info@techkar.pk</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 TechKar. All rights reserved. Proudly made in Pakistan.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
